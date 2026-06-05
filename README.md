@@ -1,53 +1,53 @@
-# SQL-project-
-Two SQL projects, one goal — demonstrate the ability to take data from messy to meaningful using MySQL and clean, efficient queries.
 # SQL Data Analysis Portfolio Projects
 
-A collection of SQL projects showcasing practical experience in data cleaning, database management, and exploratory data analysis using MySQL.
+This repository contains multiple SQL projects demonstrating data cleaning, database management, and exploratory data analysis techniques using MySQL.
 
-## Project 1: Global Layoffs Data Cleaning & Analysis
+## Projects Included
 
-### Overview
+### 1. Global Layoffs Data Cleaning & EDA
 
-This project involves cleaning and analyzing a global layoffs dataset that contains workforce reduction records from companies operating across different industries and countries.
+#### Project Overview
 
-### Skills Applied
+This project focuses on cleaning and analyzing a global layoffs dataset containing workforce reduction records from companies across different countries and industries.
+
+#### Skills Demonstrated
 
 * Data Cleaning
 * Data Transformation
-* Null Value Handling
-* Duplicate Removal
+* Handling Null Values
+* Removing Duplicates
 * Window Functions
 * Common Table Expressions (CTEs)
-* Exploratory Data Analysis (EDA)
-* Business Insight Development
+* Exploratory Data Analysis
+* Business Insights Generation
 
-### Key Findings
+#### Key Insights
 
 * Total layoffs analyzed: **386,379**
-* Largest layoffs: **Amazon, Google, Meta, Salesforce**
-* Most affected industry: **Consumer**
-* Most affected country: **United States**
-* Peak layoff year: **2022**
+* Largest layoffs: Amazon, Google, Meta, Salesforce
+* Most affected industry: Consumer
+* Most affected country: United States
+* Peak layoff year: 2022
 
-### Project Files
+#### Files
 
-* `global_layoffs.csv`
-* `global_layoffs_wasseem.sql`
+* layoffs.csv
+* layoffs_Taqi.sql
 
 ---
 
-## Project 2: Parks & Recreation Employee Database Analysis
+### 2. Parks & Recreation Employee Database Analysis
 
-### Overview
+#### Project Overview
 
-This project uses a fictional Parks & Recreation employee database to explore both basic and advanced SQL techniques.
+This project uses a fictional Parks & Recreation employee database to practice SQL fundamentals and advanced querying techniques.
 
-The dataset includes employee demographic and salary information, making it possible to analyze workforce characteristics, compensation trends, and organizational structures.
+The database contains employee demographic and salary information that allows analysis of workforce structure, compensation, and organizational trends.
 
-### Skills Applied
+#### Skills Demonstrated
 
-* SELECT Queries
-* WHERE Clauses
+* SELECT Statements
+* WHERE Filtering
 * ORDER BY
 * GROUP BY
 * Aggregate Functions
@@ -60,19 +60,19 @@ The dataset includes employee demographic and salary information, making it poss
 * Triggers
 * Window Functions
 
-### Analysis Highlights
+#### Analysis Performed
 
 * Employee demographic analysis
 * Salary distribution analysis
-* Department performance summaries
+* Department-level summaries
 * Age and gender segmentation
-* Salary-based employee rankings
-* Average salary reporting
-* Workforce composition analysis
+* Employee ranking by salary
+* Average salary calculations
+* Workforce composition reporting
 
-### Database Tables
+#### Database Tables
 
-#### employee_demographics
+##### employee_demographics
 
 * employee_id
 * first_name
@@ -81,38 +81,38 @@ The dataset includes employee demographic and salary information, making it poss
 * birth_date
 * age
 
-#### employee_salary
+##### employee_salary
 
 * employee_id
 * occupation
 * salary
 * dept_id
 
-#### parks_departments
+##### parks_departments
 
 * department_id
 * department_name
 
-### Learning Outcomes
+#### Learning Outcomes
 
-This project enhanced practical SQL knowledge through:
+This project strengthened core SQL skills by working with:
 
-* Relational database concepts
+* Relational database design
 * Table relationships
-* Data aggregation techniques
-* Reporting and analytics
-* Advanced SQL functionality
+* Data aggregation
+* Analytical reporting
+* Advanced SQL concepts
 
 ---
 
-## Technologies & Tools
+## Technologies Used
 
 * MySQL
 * SQL
 * MySQL Workbench
 * CSV Data Sources
 
-## SQL Topics Covered
+## SQL Concepts Covered
 
 * Data Cleaning
 * Data Transformation
@@ -129,6 +129,7 @@ This project enhanced practical SQL knowledge through:
 
 ## Repository Structure
 
+```text
 SQL-Projects/
 │
 ├── Global-Layoffs-Project/
@@ -142,8 +143,10 @@ SQL-Projects/
 │   └── README.md
 │
 └── Main README.md
+```
+
 ## Author
 
-Waseem  Khan
+**Mohammed Taqi**
 
-Aspiring Data Analyst passionate about SQL, Tableau, Power BI, and Data Visualization, with a strong interest in turning raw data into meaningful insights and impactful business solutions.
+Aspiring Data Analyst passionate about SQL, Tableau, Power BI, and Data Visualization.
