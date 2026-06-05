@@ -147,6 +147,5 @@ SQL-Projects/
 
 ## Author
 
-**Mohammed Taqi**
-
+waseem khan
 Aspiring Data Analyst passionate about SQL, Tableau, Power BI, and Data Visualization.
