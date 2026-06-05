@@ -132,8 +132,8 @@ This project enhanced practical SQL knowledge through:
 SQL-Projects/
 │
 ├── Global-Layoffs-Project/
-│   ├── global_layoffs.csv
-│   ├── global_layoffs_waseem.sql
+│   ├── golbal_layoffs.csv
+│   ├── golbal_layoffs_waseem.sql
 │   └── README.md
 │
 ├── Parks-and-Recreation-Project/
@@ -142,7 +142,6 @@ SQL-Projects/
 │   └── README.md
 │
 └── Main README.md
-
 ## Author
 
 Waseem  Khan
