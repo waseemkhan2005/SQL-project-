@@ -146,6 +146,8 @@ SQL-Projects/
 ```
 
 ## Author
+*waseem khan*
 
-**waseem khan**
+
+
 Aspiring Data Analyst passionate about SQL, Tableau, Power BI, and Data Visualization.
